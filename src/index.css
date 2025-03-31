@@ -15,6 +15,11 @@
     fill: #f55b1f;
 }
 
+.radial-gradient {
+    background-color: transparent;
+    background-image: radial-gradient(rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.06) 100%);
+}
+
 /* Home page */
 
 #home-hero {

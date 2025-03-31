@@ -1,7 +1,8 @@
-import Hero from "./Hero";
-import Header from "../../components/Header";
-import AboutCompany from "./AboutCompany";
 import Container from "../../components/Container";
+import Footer from "../../components/Footer";
+
+import Hero from "./Hero";
+import AboutCompany from "./AboutCompany";
 
 const Home = () => {
   return (
@@ -11,8 +12,9 @@ const Home = () => {
         <AboutCompany />
       </Container>
       <div className="min-h-screen bg-gray-100">
-        Bottom
+      Content
       </div>
+      <Footer />
     </>
   )
 }
