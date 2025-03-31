@@ -3,8 +3,6 @@ import '../index.css';
 import Logo from '../assets/sugar-logo.png';
 import { ChevronsRight, ArrowRight } from 'lucide-react';
 
-
-
 const Footer = () => {
   return (
     <>
@@ -15,7 +13,6 @@ const Footer = () => {
                 <img src={Logo} alt="Logo" className="w-44 h-14" />
             </div>
             <div id="links" className='flex w-full justify-around text-white'>
-                {/* TODO: Hide above logo on lg screens and add a column logo on lg screens */}
                 <div id="logo-icon" className="p-2.5 hidden lg:flex lg:w-1/4">
                     <img src={Logo} alt="logo" className='w-44 h-14'/>
                 </div>
