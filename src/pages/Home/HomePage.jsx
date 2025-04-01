@@ -3,16 +3,20 @@ import Footer from "../../components/Footer";
 
 import Hero from "./Hero";
 import AboutCompany from "./AboutCompany";
+import InfoSectionDivider from "./InfoSectionDivider";
 
 const Home = () => {
   return (
     <>
       <Hero />
+
       <Container>
         <AboutCompany />
       </Container>
+      <InfoSectionDivider />
+      
       <div className="min-h-screen bg-gray-100">
-      Content
+        Content
       </div>
       <Footer />
     </>

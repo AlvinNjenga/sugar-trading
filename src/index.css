@@ -35,22 +35,28 @@
     background-repeat: no-repeat;
 }
 
-/* #about-image-tag::before {
-    position: absolute;
-    content: "";
-    right: 0px;
-    top: -30px;
-    width: 0;
-    height: 0;
-    border-bottom: 30px solid #d34e19;
-    border-right: 30px solid transparent;
-    z-index: -1;
-    left: auto;
-} */
-
 #about-image-tag {
     position: absolute;
     top: 50px;
     right: 5%;
     border: 1px solid #F55B1F;
+}
+
+/* Info Section Divider */
+
+#info-section-divider {
+    background-image: url("../src/assets/cta-img-bg.jpg");
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#info-section-content {
+    background: #F55B1F;
+}
+
+@media (min-width: 64rem) {
+    #info-section-content {
+        background: linear-gradient(-135deg, #F55B1F 70%, transparent 25%)
+    }
 }
