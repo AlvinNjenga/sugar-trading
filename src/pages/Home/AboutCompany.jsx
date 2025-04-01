@@ -8,7 +8,7 @@ const AboutCompany = () => {
   return (
     <section id="about-us" className="flex flex-col lg:flex-row gap-10">
         {/* About Text */}
-        <div className='grow-2 w-[60%] p-2.5'>
+        <div className='grow-2 p-2.5 lg:w-[60%] '>
             <div id="title-wrapper">
                 <span id="sub-title" className='flex items-center gap-2 text-[#f55b1f] font-outfit font-semibold'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="9" viewBox="0 0 25 9" fill="none"><path d="M0 0H9V9H0V0Z" fill="#f55b1f"></path><path d="M9 4H25V5H9V4Z" fill="#f55b1f"></path></svg>
@@ -20,7 +20,7 @@ const AboutCompany = () => {
             
             <p id="description" className='text-[#666666] font-jakarta leading-7'>Our global logistics expertise, advanced supply chain technology & customized logistics solutions will help you analyze, develop and implement successful supply chain management strategies from end-to-end.</p>
             
-            <div className='my-10 flex justify-between gap-4'>
+            <div className='my-10 flex justify-around gap-4 lg:justify-between '>
                 <div id="online-tracing" className='max-w-[40%]'>
                     <div id="box-inner" className='flex gap-4'>
                         <div id="icon-area" className='pt-4'>
@@ -57,7 +57,7 @@ const AboutCompany = () => {
         </div>
 
         {/* Image */}
-        <div className='relative grow-1 w-[40%] lg:mt-20 xl:mt-5'>
+        <div className='relative grow-1 w-full lg:w-[40%] lg:mt-20 xl:mt-5'>
             <img src={AboutMainImage} alt="About Main Image" className='w-[90%]' />
             <div id="about-image-tag" className='bg-[#F55B1F] flex flex-col justify-center text-white p-5 h-36 w-36'>
                 <span className='text-5xl font-bold text-center'>25</span>
