@@ -12,7 +12,7 @@ const Header = () => {
           className='h-[54px]'
         />
       </div>
-      <navbar>
+      <nav>
         <ul className='flex flex-row gap-6 lg:gap-10 items-center text-white py-8 font-jakarta font-medium'>
           {/* TODO: Create a looping component for the links */}
           <li className='transition-all ease-in-out hover:text-[#F55B1F]'><a href="#">Home</a></li>
@@ -27,7 +27,7 @@ const Header = () => {
             </div>
           </li>
         </ul>
-      </navbar>
+      </nav>
     </header>
   )
 }

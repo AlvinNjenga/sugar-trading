@@ -60,3 +60,9 @@
         background: linear-gradient(-135deg, #F55B1F 70%, transparent 25%)
     }
 }
+
+/* Services */
+
+#service-image {
+    /* background-image: url("../src/assets/rail_services.jpg"); */
+}
